@@ -1,6 +1,6 @@
 # Meteor Test Doubles
 
-Meteor core API test doubles using testdouble.js
+Meteor core API test doubles using [testdouble.js](https://github.com/testdouble/testdouble.js)
 
 ## Run fast unit tests with Meteor
 
