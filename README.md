@@ -12,7 +12,7 @@ You can set up your testing by following the instructions in [Meteor Unit Testin
 
 For maximum compatibility, make your `.babelrc` look like this:
 
-```
+```js
 {
   "presets": ["meteor", "react"],
   "plugins": ["transform-es2015-modules-commonjs"]
@@ -31,7 +31,7 @@ These limitations may be lifted with [some additional effort](https://forums.met
 
 Use the test doubles to replace core API calls. This will allow you to get your test code running without errors. You can then create custom test doubles and assertions for the specific tests you need to make. e.g.,
 
-```
+```js
 import td from 'testdouble';
 import { expect } from 'chai';
 import { Meteor, Mongo, newCollection } from 'meteor-test-doubles';
