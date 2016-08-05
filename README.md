@@ -2,6 +2,8 @@
 
 Meteor core API test doubles using [testdouble.js](https://github.com/testdouble/testdouble.js)
 
+This project is still very incomplete - get involved if you think it's a good idea!
+
 ## Run fast unit tests with Meteor
 
 Unit tests should load only the code under test, but Meteor apps depend on Meteor core modules that are large and can't be independently loaded under Meteor 1.3 and 1.4. Meteor Test Doubles provides [testdouble.js](https://github.com/testdouble/testdouble.js) replacements for the core Meteor API, allowing you to easily construct lightning-fast unit tests. 
